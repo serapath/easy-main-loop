@@ -1,0 +1,24 @@
+{
+  "name": "easy-main-loop",
+  "version": "1.0.0",
+  "description": "re-render virtual dom every time update(state) is called",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/easy-main-loop.git"
+  },
+  "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serapath/easy-main-loop/issues"
+  },
+  "homepage": "https://github.com/serapath/easy-main-loop#readme",
+  "dependencies": {
+    "error": "^7.0.2",
+    "raf": "^3.1.0",
+    "virtual-dom": "^2.1.1"
+  }
+}
