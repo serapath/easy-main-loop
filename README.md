@@ -2,6 +2,25 @@
 re-render virtual dom every time update(state) is called
 
 # usage
+```html
+<html>
+ <body>
+   <template id="style_css">
+     .test {
+       background-color: {color1};
+     }
+     .test2 {
+       background-color: {color2};
+     }
+     .bla {
+      background-color: grey;
+     }
+   </template>
+   <div id='content'></div>
+ </body>
+</html>
+```
+
 ```js
 var start = require('easy-main-loop')
 var style = require('easy-jss')
